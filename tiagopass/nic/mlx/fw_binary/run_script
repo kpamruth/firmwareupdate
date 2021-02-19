@@ -1,0 +1,24 @@
+#!/bin/bash
+
+if [ -e "/sbin/lspci" ]; then
+  MLXPCIADDR=$( /sbin/lspci | grep -i mellanox | awk '{print $1}' 2>&1 )
+else
+  echo "no lspci found, can't find pci address"
+  exit -1
+fi
+
+# check that MLXPCIADDR is valid?
+if [ -z $MLXPCIADDR ]; then
+  echo "could not find mellanox hw address"
+  exit -1
+fi
+
+chmod 755 mstflint
+mstflint -y -d ${MLXPCIADDR} -i 14.21.3008.bin b
+if [ $? -eq 0 ]; then
+  echo "need reboot"
+  exit 0
+else
+  echo "error in firmware update"
+  exit -1
+fi
