@@ -1,0 +1,11 @@
+{
+    "tool_name": "bios_oob.sh",
+    "new_fw_tool_path": "tiogapass/bios/quanta/Yafuflash2_v4.16.08",
+    "old_fw_tool_path": "tiogapass/bios/quanta/Yafuflash2_v4.16.08",
+    "fw_filepath": "tiogapass/bios/quanta/Yafuflash2_v4.16.08",
+    "new_fw_file": "tiogapass/bios/quanta/Yafuflash2_v4.16.08/TPE13_PCH_A.bin",
+    "old_fw_file": "tiogapass/bios/quanta/Yafuflash2_v4.16.08/TPE13_PCH_A.bin",
+    "new_fw_ver": "TPE13",
+    "old_fw_ver":"TPE13",
+    "fw_update_count": 2
+}
