@@ -1,6 +1,5 @@
 {
     "inband": {
-        "TPM10" : "TPM10.tgz",
         "TPM09" : "TPM09.tgz",
         "TPM09" : "TPM09.tgz",
         "TPM09" : "TPM09.tgz",
@@ -15,7 +14,6 @@
         "latest" : "TPM10"
     },
     "oob": {
-        "TPM10" : "TPM10.tgz",
         "TPM09" : "TPM09.tgz",
         "TPM09" : "TPM09.tgz",
         "TPM09" : "TPM09.tgz",
