@@ -1,0 +1,47 @@
+{
+    "inband": {
+        "TPM10" : "TPM10.tgz",
+        "TPM09" : "TPM09.tgz",
+        "TPM09" : "TPM09.tgz",
+        "TPM09" : "TPM09.tgz",
+        "TPM08" : "TPM08.tgz",
+        "TPM04" : "TPM04.tgz",
+        "rd_stable" : "TPM09",
+        "rd_previous" : "TPM09",
+        "rd_latest" : "TPM11",
+        "stable" : "TPM04",
+        "previous" : "TPM09",
+	"factory" : "TPM04" ,
+        "latest" : "TPM10"
+    },
+    "oob": {
+        "TPM10" : "TPM10.tgz",
+        "TPM09" : "TPM09.tgz",
+        "TPM09" : "TPM09.tgz",
+        "TPM09" : "TPM09.tgz",
+        "TPM08" : "TPM08.tgz",
+        "TPM04" : "TPM04.tgz",
+        "rd_stable" : "TPM09",
+        "rd_previous" : "TPM09",
+        "rd_latest" : "TPM11",
+        "stable" : "TPM04",
+        "factory" : "TPM04" ,
+        "previous" : "TPM09",
+        "latest" : "TPM10"
+    },
+    "me": {
+         "TPM10" : "SPS_04.01.04.339.0",
+         "TPM09" : "SPS_04.01.04.339.0",
+         "TPM09" : "SPS_04.01.04.339.0",
+         "TPM09" : "SPS_04.01.04.339.0",
+         "TPM08" : "SPS_04.00.04.393.0",
+         "TPM04" : "SPS_04.00.04.340.0"
+    },
+    "bios_checks": {
+        "system_bios_log": true,
+        "boot_time_variance": 60,
+        "no_pcr_check": true,
+        "me_util_check": true,
+        "rdmsr": true
+    }
+}
